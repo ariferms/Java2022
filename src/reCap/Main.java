@@ -4,6 +4,8 @@ import arraysDemo.ArraysDemo;
 import miniProje.AsalSayi;
 import miniProje2.HarfSesi;
 import miniProje3.MukemmelSayi;
+import miniProje4.ArkadasSayilar;
+import miniProje5.SayiBulma;
 import multiArrays.MultiArrays;
 import reCapDemo2.ReCapDemo2;
 import stringDemo.StringDemo;
@@ -34,6 +36,8 @@ public class Main {
         AsalSayi asalSayiHesap = new AsalSayi();
         HarfSesi harfKontrol = new HarfSesi();
         MukemmelSayi mukemmelSayilar = new MukemmelSayi();
+        ArkadasSayilar arkadaSayi = new ArkadasSayilar();
+        SayiBulma sayiAra = new SayiBulma();
 
         //swc.switchDemo();
         //whl.wDemo();
@@ -46,6 +50,8 @@ public class Main {
         harfKontrol.harflerinSesi1();
         harfKontrol.harfKontrolAltr();
          */
-        mukemmelSayilar.mukemmelSayiBul();
+        //mukemmelSayilar.mukemmelSayiBul();
+        //arkadaSayi.arkadasSayiBul();
+        sayiAra.sayiBul();
     }
 }

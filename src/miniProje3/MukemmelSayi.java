@@ -7,7 +7,7 @@ import java.util.List;
 public class MukemmelSayi {
     public void mukemmelSayiBul(){
 
-        int mSayi = 17;
+        int mSayi = 28;
 
         List<Integer> say = new ArrayList<>();
 
