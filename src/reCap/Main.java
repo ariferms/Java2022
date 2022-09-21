@@ -52,6 +52,6 @@ public class Main {
          */
         //mukemmelSayilar.mukemmelSayiBul();
         //arkadaSayi.arkadasSayiBul();
-        sayiAra.sayiBul();
+        //sayiAra.sayiBul();
     }
 }
