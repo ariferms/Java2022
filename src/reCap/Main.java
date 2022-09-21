@@ -3,6 +3,7 @@ package reCap;
 import arraysDemo.ArraysDemo;
 import miniProje.AsalSayi;
 import miniProje2.HarfSesi;
+import miniProje3.MukemmelSayi;
 import multiArrays.MultiArrays;
 import reCapDemo2.ReCapDemo2;
 import stringDemo.StringDemo;
@@ -32,6 +33,7 @@ public class Main {
         StringDemo strDemo = new StringDemo();
         AsalSayi asalSayiHesap = new AsalSayi();
         HarfSesi harfKontrol = new HarfSesi();
+        MukemmelSayi mukemmelSayilar = new MukemmelSayi();
 
         //swc.switchDemo();
         //whl.wDemo();
@@ -40,7 +42,10 @@ public class Main {
         //multiArr.multiArraysDemo();
         //strDemo.stringDemo();
         //asalSayiHesap.asalSayiHesapla();
+        /*
         harfKontrol.harflerinSesi1();
         harfKontrol.harfKontrolAltr();
+         */
+        mukemmelSayilar.mukemmelSayiBul();
     }
 }
