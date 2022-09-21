@@ -17,6 +17,8 @@ public class MukemmelSayi {
                 say.add(i);
             }
         }
+        // reduce liste içindeki elemanların hepsine giderek bir işlem yapar.
+        // Burada da her bir elemana gidip sum işlemi yapmıştır.
         int sonucToplam = say.stream().reduce(0, Integer::sum);
         if (sonucToplam == mSayi){
             for (int bolenSayilar : say) {
